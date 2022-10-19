@@ -1,0 +1,413 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+html h1 {
+    font-weight:bolder;
+    
+}
+
+html h2 {
+    font-weight: light;
+}
+
+header {
+    padding-top: 1%;
+    padding-bottom: 0.7%;
+    background-color: rgb(95, 158, 160);
+
+}
+
+/* Header */
+
+#tituloHeader{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 130%;
+
+}
+
+/* Nav */
+
+.contenedorlistaNavegacion{
+    display: grid;
+    float: left;
+}
+
+
+.contenedorNavegacion{
+    float: left;
+    width: 100%;
+    padding-top: 1%;
+    padding-left: 15%;
+}
+
+.listaNavegacion{
+    overflow: hidden;
+    list-style: none;
+}
+
+.listaNavegacion li {
+    float: left;
+    padding: 20px;
+    
+}
+
+.listaNavegacion li a{
+    display: block;
+    text-decoration: none;
+    color:rgb(169, 169, 169);
+    
+}
+
+.listaNavegacion li a:hover{
+    color:rgb(95, 158, 160);
+}
+
+#logoPagina{
+    position: relative;
+    top: -10px;
+    width:100%;
+    height:100%
+}
+
+/* Seccion Rebaja */
+
+.Rebajas{
+    padding-top: 8%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+.Rebajas h1{
+    text-align: center;
+    padding-bottom: 1%;
+    font-weight:400;
+}
+
+.Rebajas img{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Seccion productos */
+
+.ProductosMostrados{
+    padding-bottom: 10%;
+}
+
+.ProductosMostrados h2{
+    text-align: center;
+    color: rgb(95, 158, 160);
+    font-weight:400;
+    font-size: 230%;
+    padding-bottom: 3%;
+    padding-top: 7%;
+}
+
+.contenedorProductosTotales{
+    display: flex;
+    justify-content: center;
+    flex-wrap: flex;
+    padding-left: 3%;
+    padding-right: 2%
+}
+
+.contenedorProducto{
+    overflow: hidden;
+}
+
+
+.contenedorImagenProducto{
+    padding-bottom: 1%;
+}
+
+.contenedorImagenProducto img{
+     width: 95%;
+}
+
+
+.precioOriginal{
+    float: left;
+    color:rgb(95, 158, 160);
+}
+
+.precioViejo{
+    text-decoration: line-through;
+    color:rgb(220, 20, 60);
+    font-style: italic;
+}
+
+.titulo24{
+     color: rgb(0, 0, 0)!important;
+}
+
+/* Imagenes de clientes */
+
+.usuariosTitulo{
+    font-weight: 400;
+    padding-left:5%;
+    font-size: 300%;
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 6%;
+    color:rgb(0, 0, 0);
+}
+.Usuario{
+    margin-left: 2%;
+    display: grid;
+    padding-bottom: 10%;
+}
+
+.Usuario img{
+    width: 98%;
+    padding-bottom: 5%;
+}
+
+.productoContainer img{
+    width: 5%;
+}
+
+/* Carrito*/
+
+.carritoTitle{
+    color: rgb(95, 158, 160);
+    font-weight: 400;
+    padding-left:1%;
+    font-size: 300%;
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 6%;
+
+}
+
+
+
+.Line{
+    border: 1px solid rgb(169, 169, 169);
+}
+
+.shoppingCart-Container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: flex;
+}
+
+.productsContainer{
+    padding-left: 1%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+.productoContainer{
+    display: flex;
+    justify-content:left;
+    flex-wrap: wrap;
+}
+
+.productoContainer i{
+    color: rgb(95, 158, 160);
+    padding-top: 12%;
+    font-size: 390%;
+    padding-right: 2%;
+}
+
+.productoContainer i:hover{
+    color:rgb(0, 0, 0);
+}
+
+.productoContainer img{
+    width:20%;
+    padding-bottom: 4%;
+}
+
+.descripcionProducto{
+    padding-top: 12%;
+}
+
+.descripcionProducto h4{
+    color: rgb(0, 0, 0);
+    font-size: 130%;
+    padding-bottom: 2%;
+    font-weight:500;
+    padding-left: 3%;
+}
+
+.descripcionProducto h6{
+    color: rgb(220, 20, 60);
+    font-size:120%;
+    padding-left: 3%;
+    
+}
+
+.cantidadProductos{
+    display: flex;
+    justify-content: center;
+    padding-top: 12%;
+    padding-left: 3%;
+}
+
+#hilera1{
+    padding-left:8%;
+}
+
+.cantidadProductos i{
+    padding-top: 0% !important;
+    font-size: 220% !important;
+
+}
+
+.cantidadProductos label{
+    color:rgb(169, 169, 169);
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 160%;
+}
+
+.Precio{
+    padding-left:7%;
+    padding-top: 12%;
+}
+
+.precioP{
+    color:rgb(220, 20, 60);
+    font-size:220%;
+}
+
+.contenedorMontoTotal{
+    padding-top: 15%;
+    padding-right: 6%;
+    padding-left: 2%;
+
+    background-color:rgb(247, 247, 247);
+
+}
+
+.cajaMonto h3{
+    color:black;
+    padding-left: 40%;
+    padding-bottom: 20%;
+    font-size: 200%;
+    font-weight: 500;
+}
+
+.PrecioPreliminar{
+    display: flex;
+    padding-bottom: 10%;
+    padding-left: 15%;
+}
+
+.price{
+    padding-left: 40%;
+    color:rgb(220, 20, 60);
+    font-weight: bold;
+}
+
+#cinco{
+    padding-left: 50%;
+}
+
+#cuarentayocho{
+    padding-left: 62%;
+}
+
+.botonCompra{
+    padding-top: 10%;
+    padding-left: 18%;
+}
+
+.botonCompra button{
+    color: #fff;
+    border: 1px solid rgb(169, 169, 169);
+    font-weight: 500;
+    background-color:rgb(95, 158, 160);
+    border-radius: 10%;
+    height: 50px;
+    width: 150px;
+
+}
+
+.botonCompra button:hover{
+    font-weight:bold;
+    background-color: rgb(55, 94, 95);
+}
+
+/* Footer */
+
+.contenedorFooter{
+    background-color: rgb(95, 158, 160);
+    padding-top: 1%;
+    padding-left: 5%;
+    display: flex;
+    padding-bottom: 2%;
+}
+
+.Copyright{
+    color:rgb(255, 255, 255);
+    padding-top: 1%;
+    font-weight:200;
+    font-size: 130%;
+}
+
+.contenedor-RedesSociales{
+    padding-left: 4%;
+}
+
+.redesSociales ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding-left: 600%;
+    padding-top: 15px;
+}
+
+.redesSociales ul li a{
+    padding-right: 5px;
+    color:rgb(255, 255, 255);
+}
+
+.redesSociales ul li a:hover{
+    color:rgb(220, 20, 60)
+}
+
+.flecha{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(220, 20, 60);
+    line-height: 60px;
+    z-index: 10;
+    position: fixed;
+    right: 10px;
+    bottom: 30px;
+    opacity: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
